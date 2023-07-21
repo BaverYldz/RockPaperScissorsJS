@@ -1,5 +1,5 @@
 body {
-  background-color:#8ca8ab;
+  background-color: #8ca8ab;
   color: white;
 }
 
@@ -7,25 +7,30 @@ body {
   font-size: 30px;
   font-weight: bold;
 }
-.move-icon{
+
+.move-icon {
   height: 80px;
 }
-.move-button{
+
+.move-button {
   background-color: transparent;
-  border: 3px solid black; 
- width: 120px;
- height: 120px;
- margin-right: 10px;
- cursor: pointer;
+  border: 3px solid black;
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+  cursor: pointer;
 }
-.result{
+
+.result {
   font-size: 25px;
   font-weight: bold;
   margin-top: 50px;
 }
-.score{
+
+.score {
   margin-top: 60px;
 }
+
 .reset-score-button {
   border: none;
   padding: 8px 15px;
