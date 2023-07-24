@@ -9,31 +9,48 @@
 </head>
 
 <body>
-  <!-- style the page later-->
-  <p class="title">Rock Paper Scissors</p>
-  <button onclick="
+  <div class="main-div">
+    <!-- style the page later-->
+    <div class="title-div">
+      <p class="title">Rock Paper Scissors</p>
+    </div>
+    <div class="item-div">
+      <button onclick="
     playGame('rock');
   " class="move-button"><img src="images/rock (1).png" class="move-icon"></button>
 
-  <button onclick="
+      <button onclick="
     playGame('paper');
   " class="move-button"><img src="images/paper (1).png" class="move-icon"></button>
 
-  <button onclick="
+      <button onclick="
     playGame('scissors');
   " class="move-button"><img src="images/scissors (1).png" class="move-icon"></button>
+    </div>
 
-  <p class="js-result result"></p>
-  <p class="js-moves"></p>
-  <p class="js-score" class="score"></p>
+    <div>
+      <p class="js-result result"></p>
+    </div>
+    
+    <p class="js-moves"></p>
 
-  <button onclick="
-    score.wins = 0;
-    score.losses = 0;
-    score.ties = 0;
-    localStorage.removeItem('score');
-    updateScoreElement();
-  " class="reset-score-button">Reset Score</button>
+    <p class="js-score css-score" class="score"></p>
+    <div class="reset-div">
+      <button onclick="
+        score.wins = 0;
+        score.losses = 0;
+        score.ties = 0;
+        localStorage.removeItem('score');
+        updateScoreElement();
+      " class="reset-score-button">Reset Score</button>
+    </div>
+
+
+
+
+
+  </div>
+
 
   <script src="sc.js"></script>
 </body>
